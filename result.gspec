@@ -1,0 +1,40 @@
+= Skeleton =
+    welcome-block:
+        below header-logo
+        centered horizontally inside screen 1px
+        inside screen >= 53px left
+
+    header-text:
+        above welcome-block
+        height 39px
+        inside screen 20px top
+        right-of header-logo 22px
+
+    header-logo:
+        height 48px
+        inside screen 53px left, 13px top
+        width 48px
+
+= welcome-block elements =
+    text-block-1, text-block-2:
+        height 30px
+
+    text-block-3, login-btn:
+        height 45px
+
+    text-block-2:
+        above text-block-3 15px
+        below text-block-1 15px
+
+    greeting:
+        above text-block-1 10px
+        height 69px
+
+    login-btn:
+        inside text-block-3 0px top left bottom
+        width 78px
+
+    greeting, text-block-1, text-block-2, text-block-3:
+        centered horizontally inside welcome-block 1px
+        inside welcome-block 30px left right
+
